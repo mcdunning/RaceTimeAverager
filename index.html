@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<script type="text/javascript" src="src/index.js"></script>
+		<title>Race Time Average Calculator</title>
+	</head>
+	<body>
+		<h3>Enter the race times to calculate the average</h3>
+		<form id="race-time-form">
+			<label>Select the number of times to average</label>
+			<select id="num-race-times">
+				<option value="1">1</option>
+				<option value="2" selected>2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select>
+			<br>
+			<div id="race-times"></div>
+			<br>
+			<button type="submit">Submit</button>
+		</form>
+		<div id="average-time"></div>
+	</body>
+</html>
